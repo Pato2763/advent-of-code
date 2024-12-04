@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { number } = require("yargs");
 const input = fs.readFileSync("Day-1/input.txt", "utf-8");
 
 const getLists = (data) => {
